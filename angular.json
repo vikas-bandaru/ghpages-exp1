@@ -104,6 +104,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "buildTarget": "ghpages-exp1:build:production"
+          }
         }
       }
     }
